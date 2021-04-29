@@ -1,0 +1,16 @@
+v 4
+file . "l1z4_tb.vhdl" "0f7edcc24182cd2e22ebc1e22f36a6bd64e143b4" "20210318082353.626":
+  entity l1z4_circuit at 1( 0) + 0 on 19;
+  architecture behav of l1z4_circuit at 4( 42) + 0 on 20;
+file . "adder_tb.vhdl" "c53aab0e1a5c559e8d0bd281bdb5915149dcbdb2" "20210318080447.208":
+  entity adder_tb at 2( 30) + 0 on 15;
+  architecture behav of adder_tb at 5( 64) + 0 on 16;
+file . "hello.vdhl" "ae7279606dd3ea6cbc790273173e8c44683b78eb" "20210318080043.262":
+  entity hello_world at 2( 24) + 0 on 11;
+  architecture behaviour of hello_world at 8( 173) + 0 on 12;
+file . "adder.vhdl" "d04fb82a3802e8ed47021631373adc7e094f2b75" "20210318080321.572":
+  entity adder at 1( 0) + 0 on 13;
+  architecture rtl of adder at 7( 209) + 0 on 14;
+file . "l1z4.vhdl" "1405d70774d304a5b63688278f14cf94483cb3a9" "20210318082348.032":
+  entity logic_circ at 1( 0) + 0 on 17;
+  architecture rtl of logic_circ at 5( 100) + 0 on 18;
