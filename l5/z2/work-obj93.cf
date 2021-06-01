@@ -1,0 +1,7 @@
+v 4
+file . "Ndzielnik_tb.vhd" "fc610b8c8d18bc75f10357b183c7f121d1947301" "20210601204232.438":
+  entity ndzielnik_tb at 1( 0) + 0 on 29;
+  architecture behavior of ndzielnik_tb at 8( 112) + 0 on 30;
+file . "Ndzielnik.vhd" "c38469937a3b52a65e4d911de8a5ccbeb8660cfc" "20210601204232.437":
+  entity ndzielnik at 1( 0) + 0 on 27;
+  architecture behavioral of ndzielnik at 13( 214) + 0 on 28;

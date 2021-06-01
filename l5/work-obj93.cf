@@ -1,0 +1,7 @@
+v 4
+file . "dzielnik_tb.vhd" "2fa469989e1e845190c81ea92846b3a11734a554" "20210601204631.501":
+  entity dzielnik_tb at 1( 0) + 0 on 33;
+  architecture behavior of dzielnik_tb at 8( 110) + 0 on 34;
+file . "dzielnik.vhd" "d0c2f8bf1650a0a991cab173b9fbdf71c0b091e3" "20210601204631.500":
+  entity dzielnik at 1( 0) + 0 on 31;
+  architecture behavioral of dzielnik at 13( 218) + 0 on 32;
