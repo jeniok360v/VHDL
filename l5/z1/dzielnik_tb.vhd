@@ -16,9 +16,9 @@ architecture behavior of dzielnik_tb is
 
 
   signal clk_in: std_logic := '0';
-  signal clk_out_Mhz_50: std_logic;
   signal clk_out_hz_100: std_logic;
   signal clk_out_hz_1100: std_logic;
+  signal clk_out_Mhz_50: std_logic;
   constant clk_period: time := 8 ns;
 
 begin
@@ -29,9 +29,8 @@ begin
     clk_out => clk_out_hz_100
   );
 
-  -- relative error: 0.0003%
   hz_1100: dzielnik
-  generic map(u => 454545, d => 454545)
+  generic map(u => 454545, d => 454546)
   port map(
     clk_in => clk_in,
     clk_out => clk_out_hz_1100

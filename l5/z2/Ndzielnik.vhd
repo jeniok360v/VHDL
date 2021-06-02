@@ -6,12 +6,12 @@ entity Ndzielnik is
   generic(N: natural := 1);
   port(
     clk_in:   in std_logic;
-    clk_out:  out unsigned(N downto 0)
+    clk_out:  out unsigned(N+1 downto 0)
   );
 end Ndzielnik;
 
 architecture behavioral of Ndzielnik is
-  signal clk_tmp: unsigned(N downto 0) := (others => '0');
+  signal clk_tmp: unsigned(N+1 downto 0) := (others => '0');
 begin
   divide: process(clk_in)
   begin
